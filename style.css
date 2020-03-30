@@ -142,6 +142,21 @@ aside {
     text-decoration: underline;
 }
 
+.asidetext {
+    display: flex;
+    flex-direction: column;
+}
+.asidetext a {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.asidetext h6 {
+    margin: 0 0 0 5px;
+    flex: 1;
+}
+    
+
 .h5 {
     font-weight: bolder;
     border-style: solid;
