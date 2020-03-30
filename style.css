@@ -4,6 +4,7 @@ body{
 
 /* Navigation section */
 nav{
+    z-index: 1;
     display:flex;
     justify-content: end;
     padding: 3px 7px 3px 7px;
@@ -13,7 +14,7 @@ nav{
     left: 0;
     right: 0;
     width:100%;
-    background-color: white;    
+    background-color: white;
 }
 
 nav .nav-left{
@@ -56,8 +57,8 @@ nav .logo{
 nav .nav-right{
     display: flex;
     flex:1;
-    justify-content: end;
-    margin-right: 7px;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 .nav-right button{
     font-size:11px;
@@ -79,7 +80,82 @@ nav .nav-right{
 /* Main Content */
 main{
     position: relative;
-    top: 100px;
-    width: 50%;
+    top: 50px;
+    width: 70%;
     margin: 0 auto;
 }
+
+main p,
+main h1 {
+    width: 70%;
+    margin: 0 auto;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+main p {
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+main h2 {
+    width: 70%;
+    margin: 0 auto;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin-top: 15px;
+}
+
+main img {
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.asideimage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 5px 0;
+    flex: 1;
+}
+
+.asideimage img {
+    width: 77px;
+    height: 77px;
+    flex: 1;
+}
+
+.asideimage a {
+    flex: 2;
+    margin-left: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.asideimage a:hover {
+    text-decoration: underline;
+}
+
+.h5 {
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #E2E2E2;
+    
+}
+
+.h5 h5 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+    
