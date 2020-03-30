@@ -81,7 +81,7 @@ nav .nav-right{
 main{
     position: relative;
     top: 50px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -113,7 +113,11 @@ main img {
 aside {
     display: flex;
     flex-direction: column;
-    width: 210px;
+    width: 15%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border:1px solid red;
 }
 
 .asideimage {
