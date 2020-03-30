@@ -1,0 +1,85 @@
+body{
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+/* Navigation section */
+nav{
+    display:flex;
+    justify-content: end;
+    padding: 3px 7px 3px 7px;
+    border-bottom: 1px solid #E2E2E2;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    background-color: white;    
+}
+
+nav .nav-left{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 7px;
+}
+
+nav span{
+    margin-right:10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding:5px;
+} 
+nav span:hover{
+    background: rgba(165, 184, 196, 0.185);
+}
+
+nav a{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+} 
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    width:200px;
+}
+
+nav .logo{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+nav .nav-right{
+    display: flex;
+    flex:1;
+    justify-content: end;
+    margin-right: 7px;
+}
+.nav-right button{
+    font-size:11px;
+    font-weight: bolder;
+    background-color: #567B95;
+    color:white;
+    border:none;
+    border-radius:3px;
+}
+.subs{
+    width: 120px;
+    margin-right: 8px;
+} 
+
+.login{
+    width:65px;
+} 
+
+/* Main Content */
+main{
+    position: relative;
+    top: 100px;
+    width: 50%;
+    margin: 0 auto;
+}
