@@ -4,7 +4,7 @@ This is a clone of the web page at [Nytimes.com](https://www.nytimes.com/2014/03
 
 Additional description about the project and its features.
 
-![screenshot]()
+![Positioning and Floating Project made by Smith & Emilio](img/ScreenSS.png?raw=true "Positioning and Floating Project made by Smith & Emilio")
 ## Built With
 
 - HTML,
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Webpage
 
-[Click Here]()
+[Click Here](https://rawcdn.githack.com/emiliocm9/Positioning-and-Floating-Elements/890b7767cb494f1d92b27b48e04c7110b60987a1/index.html)
 
 ## Authors
 
