@@ -225,3 +225,34 @@ aside {
 .theories span{
     font-weight: bolder;
 }
+
+iframe {
+  margin: 40px 15% 10px 15%;
+    width: 70%;
+}
+
+.videotext {
+    color: #666666;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.videospan {
+    color: #9E9E9E;
+}
+
+figure {
+    margin: 40px 15% 10px 15%;
+    width: 70%;
+}
+
+figcaption {
+    color: #666666;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+
+
