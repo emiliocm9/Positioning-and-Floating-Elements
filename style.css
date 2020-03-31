@@ -115,9 +115,9 @@ aside {
     flex-direction: column;
     width: 15%;
     position: absolute;
-    top: 50px;
-    right: 0;
-    border:1px solid red;
+    top: 200vh;
+    right: 5%;
+    /* border:1px solid red; */
 }
 
 .asideimage {
@@ -174,7 +174,13 @@ aside {
 }
 
 
-
-
-
-    
+/* Theories Section */
+.theory-h{
+    width:100%;
+}
+.theory-p{
+    font-size: 13px;
+    line-height: normal;
+    width:100%;
+    margin-top:5px;
+}
