@@ -242,22 +242,9 @@ figcaption {
   margin-top: 0;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav span:hover {
-  background: rgba(165, 184, 196, 0.185);
-}
-
-.asideimage a:hover {
-  text-decoration: underline;
-}
-
 /* Bottom */
-.bottom{
-  width:90%;
-  /* border: 1px solid red; */
+.bottom {
+  width: 90%;
   margin: 0 auto;
   margin-top: 100px;
   border-bottom: 1px solid #e2e2e2;
@@ -287,17 +274,15 @@ nav span:hover {
   width: 200px;
 }
 
-.bottom-home{
+.bottom-home {
   display: flex;
   justify-content: end;
-
 }
 
-.bottom-home a{
+.bottom-home a {
   font-size: 11px;
-  color: #567b95; 
+  color: #567b95;
   text-decoration: none;
-  
 }
 
 .bottom-main {
@@ -320,7 +305,6 @@ nav span:hover {
   line-height: 20px;
 }
 
-
 .subscribe {
   display: flex;
   flex-direction: column;
@@ -330,10 +314,9 @@ nav span:hover {
 }
 
 .main_sub a,
-.sub-two a{
+.sub-two a {
   text-decoration: none;
 }
-
 
 .main_sub {
   flex: 2;
@@ -350,30 +333,24 @@ nav span:hover {
   padding-top: 10px;
 }
 
-.first{
+.first {
   font-size: 14px;
   color: black;
   font-weight: bolder;
   line-height: 25px;
 }
 
-.second{
+.second {
   font-size: 11px;
   line-height: 20px;
   color: black;
 }
 
-.space{
+.space {
   visibility: hidden;
   height: 15px;
-  margin:0;
-  padding:0;
-}
-
-.bottom-section a:hover,
-.main_sub a:hover,
-.sub-two a:hover{
-  text-decoration: underline;
+  margin: 0;
+  padding: 0;
 }
 
 .terms {
@@ -389,10 +366,6 @@ nav span:hover {
   text-decoration: none;
   font-size: 11px;
   color: #666;
-}
-
-.terms a:hover {
-  text-decoration: underline;
 }
 
 footer {
@@ -427,4 +400,18 @@ footer {
   font-size: 13px;
   color: black;
   font-weight: bolder;
+}
+
+/* hovers */
+nav span:hover {
+  background: rgba(165, 184, 196, 0.185);
+}
+
+nav a:hover,
+.asideimage a:hover,
+.bottom-section a:hover,
+.main_sub a:hover,
+.sub-two a:hover,
+.terms a:hover {
+  text-decoration: underline;
 }
