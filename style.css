@@ -253,3 +253,33 @@ nav span:hover {
 .asideimage a:hover {
   text-decoration: underline;
 }
+
+.bottomhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.bottom-section a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.bottom-section h4 {
+  color: #333;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.bottom-section {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
